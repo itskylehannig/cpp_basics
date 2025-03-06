@@ -1,0 +1,44 @@
+#Ignore Visual Studio Files
+.vs/
+
+# Ignore object files and static libraries
+*.o
+*.a
+*.so
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+
+# Ignore build directories
+/build/
+/bin/
+/lib/
+/obj/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore compiled dynamic libraries
+*.dll
+*.dylib
+*.lib
